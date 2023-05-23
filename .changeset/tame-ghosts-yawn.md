@@ -1,5 +1,0 @@
----
-'@gameastic/haptic': patch
----
-
-Tests
