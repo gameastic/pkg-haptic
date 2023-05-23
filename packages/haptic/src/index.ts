@@ -1,0 +1,1 @@
+export { Haptic } from './haptic';

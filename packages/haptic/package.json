@@ -1,0 +1,33 @@
+{
+    "name": "@gameastic/haptic",
+    "version": "1.0.0",
+    "license": "MIT",
+    "source": "src/index.ts",
+    "main": "dist/index.js",
+    "author": "https://github.com/gameastic",
+    "description": "Haptic System",
+    "private": false,
+    "files": [
+        "dist/**/*"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:gameastic/haptic.git"
+    },
+    "bugs": {
+        "url": "https://github.com/gameastic/haptic/issues"
+    },
+    "keywords": [
+        "haptic",
+        "taptic"
+    ],
+    "homepage": "https://github.com/gameastic/haptic#readme",
+    "scripts": {
+        "clean": "rimraf dist && rimraf tsconfig.tsbuildinfo",
+        "test": "jest --config jestconfig.json",
+        "lint": "eslint 'src/**/*.{js,ts,ts}'",
+        "build": "npm run clean && tsc --build"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
