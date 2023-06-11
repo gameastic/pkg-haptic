@@ -6,13 +6,7 @@ document.addEventListener(
         // Haptic.suspend();
         Haptic.resume();
 
-        window.addEventListener(
-            'click',
-            () => {
-                Haptic.play([1], 50);
-            },
-            true
-        );
+        window.addEventListener('click', () => Haptic.play([1], 50), true);
     },
     false
 );
